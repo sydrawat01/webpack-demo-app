@@ -1,11 +1,12 @@
 const path = require('path');
 const DashboardPlugin = require('webpack-dashboard/plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    filename: 'main.js',
+    filename: 'main.[contentHash].js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
@@ -16,5 +17,10 @@ module.exports = {
       }
     ]
   },
-  plugins: [new DashboardPlugin()]
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/template.html'
+    }),
+    new DashboardPlugin()
+  ]
 };
