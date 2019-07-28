@@ -1,0 +1,22 @@
+{
+  "name": "webpack-demo-app",
+  "version": "1.0.0",
+  "description": "Webpack demo app, to understand how webpack works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydrawat/webpack-demo-app.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Siddharth Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sydrawat/webpack-demo-app/issues"
+  },
+  "homepage": "https://github.com/sydrawat/webpack-demo-app#readme"
+}
