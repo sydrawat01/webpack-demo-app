@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/sydrawat/webpack-demo-app#readme",
   "devDependencies": {
+    "bootstrap": "^4.3.1",
     "css-loader": "^3.1.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.38.0",
