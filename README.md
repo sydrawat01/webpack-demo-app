@@ -2,9 +2,13 @@
 
 Simple app to understand the way Webpack works and how to use it.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d78bb6ff-c56c-4261-a278-c8a41ce5d180/deploy-status)](https://app.netlify.com/sites/wepack-add/deploys)
+
 ![webpack-add-app](https://imgur.com/AfWHNa5.png)
 
 I know this looks ugly! :)
+
+You can check out this app [here](https://webpack-add.netlify.com/).
 
 ## Development mode
 
